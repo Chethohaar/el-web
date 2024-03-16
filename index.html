@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plant Store</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="mainwrapper" id="Home">
+	<header>
+	
+		<div class="logo">
+			<h1 style="font-family:'Tilt Warp', sans-serif;">plant.</h1>
+
+		</div>
+		
+		<nav>
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#Collection">Collection</a></li>
+				<li><a href="#Blog">Blog</a></li>
+				<li><a href="#About">About</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<main>
+
+			<div class="content" >
+				<div class="plant-info">
+					
+					<p class="mainh"> 
+						Welcome to our Plant Sensor Data Page!
+					</p>
+					<p class="subh">
+						Know what your plant feels.Plant health encompasses the overall condition of 
+						plants, reflecting their ability to resist diseases, pests, and environmental 
+						stressors while maintaining proper growth and development. It relies on factors 
+						like adequate nutrition, appropriate watering, disease prevention, and a balanced 
+						ecosystem to ensure optimal vitality and productivity.
+                    </p>
+					<button class="explore-button" onclick="navigateToSection('#Collection')">Explore</button>
+				</div>	
+			</div>
+		</div>
+		<script>
+			function navigateToSection(sectionId) {
+			  const targetPosition = document.querySelector(sectionId).offsetTop;
+		  
+			  window.scrollTo({
+				top: targetPosition,
+				behavior: 'smooth'
+			  });
+			}
+		  </script>
+		
+			
+		</main>
+		    <section class="skills" id="Collection"  style="background-color: white;">
+				<h1 style="font-family: 'Lexend Deca', sans-serif;  
+				border-bottom: 3px solid green;border-radius: 4px;
+				text-decoration: none;padding-bottom: 2px;margin-top: 0cm;">
+				<center>Collections</center></h1>
+				
+				<div class="image-container">
+					<div class="row">
+					  <div class="image-box">
+						    <a href="Plant1.html">
+						  <img src="plant1.PNG" alt="Image 1">
+						    </a>
+						  <p style="margin-top: -1.5cm;">Cactus</p>
+					  </div>
+					  <div class="image-box">
+						    <a href="Plant2.html">
+						<img src="plant2.PNG" alt="Image 2">
+						    </a>
+						<p style="margin-top: -1.5cm;">Elegance</p>
+					  </div>
+					  <div class="image-box">
+						    <a href="Plant3.html">
+						<img src="plant3.PNG" alt="Image 3">
+						    </a>
+						<p style="margin-top: -1.5cm;">Monstera</p>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="image-box">
+						    <a href="Plant4.html">
+						<img src="plant4.PNG" alt="Image 4">
+						    </a>
+						<p style="margin-top: -1.5cm;">Aremotherapy</p>
+					  </div>
+					  <div class="image-box">
+						    <a href="Plant5.html">
+						<img src="plant5update.jpg" alt="Image 5">
+						    </a>
+						<p style="margin-top: -1.5cm;">Freddie</p>
+					  </div>
+					  <div class="image-box">
+						    <a href="Plant6.html">
+						<img src="plant6update.jpg" alt="Image 6">
+						    </a>
+						<p style="margin-top: -1.5cm;">Herbs</p>
+					  </div>
+					</div>
+				  </div>
+			</section>
+
+			<!-- Blog section -->
+
+			<section class="blog-posts" id="Blog" style="padding-top: 1.5cm;">
+				<h1 style="text-align: center;"> <span>Blog Posts</span></h1>
+		
+				<div class="blcards">
+					<div class="blog-card">
+						<a href="https://etinsights.et-edge.com/emerging-technology-exploring-the-potential-of-wearable-plant-sensors/" target="_blank">
+						<img src="blog_img.jpg" alt="Blog Post 1 Image">
+
+						<div class="blog-content">
+							<h3>Exploring the potential of wearable plant sensors</h3>
+<p> Wearable technology is an integral part of the fourth industrial revolution,
+Wearable technology allows for easy connectivity and seamless interaction with advanced technology.....</p>
+							<p><span id="readhover">Read More </span></p>
+						</a>
+						</div>
+					</div>
+		
+					<div class="blog-card">
+						<a href="https://www.bbc.com/news/business-60387006">
+						<img src="blog_img2new.webp" alt="Blog Post 2 Image" id="tryimg">
+
+						<div class="blog-content">
+							<h3>How smart sensors can help us care for our houseplants</h3>
+							<p>sensors are usually solar powered and connect wirelessly by Bluetooth or wi-fi to a user's smartphone and laptop. They show in real time if a plant has enough water or sunlight, and the correct temperature....</p>
+							<p> <span id="readhover">Read More </span></p>
+						</a>
+						</div>
+					</div>
+
+					<div class="blog-card">
+						<a href="blog-post-1.html">
+						<img src="blog_image3new.jpg" alt="Blog Post 3 Image">
+
+						<div class="blog-content">
+							<h3>Smart Plant Monitoring System</h3>
+							<p> The Smart Plant Monitoring System is a game-changer for plant enthusiasts By leveraging advanced technology,such as sensors and IOT connectivity, this system enables users to monitor and care for their plants with precision.....</p>
+							<p><span id="readhover">Read More </span></p>
+						</a>
+						</div>
+					</div>
+
+					<div class="blog-card">
+						<a href="blog-post-1.html">
+						<img src="blog_img44.jpg" alt="Blog Post 4 Image">
+
+						<div class="blog-content">
+							<h3>Emerging Technologies for Monitoring Plant Health</h3>
+							<p>Plant health monitoring is one such method to increase yields and decrease environmental impact. Using low-cost, in-field methods, water level, soil quality, and presence of pathogens and pests could be constantly monitored....</p>
+							<p ><span id="readhover">Read More </span></p>
+						</a>
+						</div>
+					</div>
+					
+		
+				</div>
+			</section>
+
+
+
+
+
+							<!-- About section -->
+
+
+							
+
+		<div class="aboutwrapper" id="About" style="padding-top: 3cm;">
+								
+			
+									
+							  
+				<div>
+					<h1> <span style=" border-bottom: 3px solid green;
+						border-radius: 4px;
+						padding-bottom: .1cm;font-size: 56px;" >About</span></h1> 
+							  
+				
+							 
+					<p>Welcome to Our Plant Sensor Page, your dedicated platform for monitoring and understanding the needs of your cherished green companions</p>
+							 
+
+
+							  <h2>Who we are</h2>
+							  
+							  <p>The smart garden is one of the newest frontiers for smart device technology. We recently reviewed three connected plant sensors, all of which promise to feed information about your plant and its growing environment to your phone. Their goal is to help you become a better gardener by monitoring your plant's vitals, like moisture levels and sunlight, giving you care advice, and letting you know when something is wrong.</p>
+							
+							
+							  <h2>What we do&nbsp;</h2>
+							 
+							  <div>
+							 
+								<p>Our mission is to simplify plant care by providing you with the best plant sensor options available. Bringing the power of data right to your fingertips, our user-friendly setup ensures you can nurture your plants with confidence.</p>
+
+							
+								<p>
+									Our Plant Sensor Page grants you direct access to innovative plant monitoring devices. We are committed to ensuring you receive the most effective solutions for your plants in every category.
+								</p>
+							 
+							  </div>
+
+
+							  <h2>Our Mission</h2>
+							  
+					 <div>
+							
+						<p>our mission is to empower your plant parenting journey with intelligent innovation. As our living spaces become increasingly green, the need for stress-free plant care has never been greater. We strive to deliver innovative plant sensor solutions that not only simplify your plant care routine but also deepen your connection with the botanical world. </p>
+
+						<p style="text-align: center; font-weight: bold; ">Welcome to a future where your plants communicate, and we help you listen.</p>
+							  
+						
+					  </div>
+			  </div>
+	  </div>
+
+
+
+
+								  <!-- Contact section -->
+                             <div style="padding-top: 2cm;padding-bottom: 3.5cm;">
+								  <h1 style="text-align: center;"> 
+									<span id="Contact">Contact Us</span>
+								</h1>
+								  <div class="contactUsPage">
+									
+									
+										
+									<form id="feedback-form">
+
+										<div class="firstrow">
+											<input type="text" placeholder="Your Name" name="name">
+											<input type="email" placeholder="Your E-mail" name="email">
+										</div>
+<br>
+										<div class="secondrow">
+											<input type="text" placeholder="Your Phone" maxlength="10" name="number">
+										</div>
+<br>
+										<div class="thirdrow">
+											<textarea placeholder="Message" name="message"></textarea>
+										</div>
+<br>
+										<div class="thirdrow">
+											<input type="submit" value="SEND MESSAGE">
+										</div>
+
+									</form>
+											
+											
+							</div>
+						</div>
+						<script>
+
+
+							$('#feedback-form').submit(function(event) {
+								 event.preventDefault();
+								 var formData = $(this).serialize();
+								 $.ajax({
+									 url: "https://formsubmit.co/ajax/chethuhaar@gmail.com",
+									 method: "POST",
+									 data: formData,
+									 dataType: "json"
+								 }).done(function(response) {
+									 console.log('Form submitted successfully:', response);
+									 // TODO: Handle successful form submission
+								 }).fail(function(jqXHR, textStatus, errorThrown) {
+									 console.error('Error submitting form:', textStatus, errorThrown);
+									 // TODO: Handle form submission error
+								 });
+							 });
+					 
+					</script>
+		<script src="script.js"></script>
+</body>
+</html>
+
+			

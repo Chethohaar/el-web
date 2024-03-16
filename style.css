@@ -1,0 +1,414 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #000;
+	/* background-image: url('');
+	background-size: cover; */
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+
+.mainwrapper{
+	 background-image: url('cozy-hobby-growing-house-indoor-plants-cactus.jpg');
+	background-size: cover;
+	
+}
+header {
+    position:fixed;
+	width: 100%;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	background-color: #fff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.logo {
+    margin-left: 2.5%;
+	display: flex;
+	align-items: center;
+}
+
+
+nav ul {
+	display: flex;
+	margin-right: 0.75cm;
+	list-style: none;
+}
+
+@font-face {
+	font-family: 'Tilt Warp';
+	src: url('TiltWarp-Regular.ttf') format('truetype');
+	
+	/* Add additional src lines for different font formats if available */
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');  
+
+nav ul li {
+	margin-left: 30px;
+	font-size: 18px;
+	font-family: 'Tilt Warp', sans-serif;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #464646;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 280px 130px;
+	margin-top: 0cm;
+	
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; 
+	
+}
+
+.plant-info {
+    width: 50%; 
+    /* margin-right: 2em; */
+	margin-top: -2.5cm; 
+}
+
+.explore-button {
+	background-color: green;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	/* margin-left: 1.5cm; */
+  }
+  
+  .explore-button:hover {
+	background-color: darkgreen;
+  }
+
+.plant-image {
+    width: 50%; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.mainh{
+	font-family: 'Times New Roman', Times, serif;
+	/* margin-left: 1.5cm; */
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.subh{
+	font-family: 'Roboto', sans-serif;
+	/* margin-left: 1.5cm; */
+	font-size: 17px;
+	margin-top: -1cm;
+}
+
+.mainimg {
+    max-width: 100%; 
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+header a:hover {
+	color: rgb(19, 181, 19);
+	border-bottom: 2px solid black;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+} 
+
+
+
+
+/* collections page */
+  
+.image-container {
+	text-align: center;
+  }
+  
+  .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px; /* Adjust spacing between rows */
+  }
+  
+  .image-box {
+	text-align: center;
+	margin: 20px 20px; /* Adjust spacing between images */
+  }
+  
+  img {
+	width: 200px; /* Adjust size as needed */
+	height: auto;
+	transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .image-box p {
+	margin: 5px 0 0; /* Adjust spacing between image and text */
+  }
+
+  .p1
+  {
+	margin-top: -1.4cm;
+  }
+
+th
+{
+padding: 0px;
+}
+.image-box {
+	overflow: hidden;
+	display: inline-block;
+	/* position: relative; */
+  }
+  
+  .image-box img {
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+ 
+  .image-box p {
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+	font-family: 'Lilita One', cursive;
+	font-size: 20px;
+	color:black;
+    }
+  
+  .image-box:hover img {
+	transform: scale(1.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	cursor: pointer; 
+  }
+  .image-box:hover p {
+	transform: scale(1.0);
+	color: green;
+	/* font-weight: bold; */
+  }
+  
+
+.skills {
+	background-color:white;/*#ece8e5*/
+	height: 20cm;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 100px;
+
+  }
+  
+  .skills h1 {
+	font-size: 56px;
+	font-weight: 700;
+	color: #000000;
+	font-family: "Libre Baskerville", serif;
+  }
+  
+ 
+
+  /* blog styles */
+
+.blog-posts {
+    /* background-color: #f5f5f5; */
+    padding: 50px;
+	padding-top: 0px;
+}
+
+.blcards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.blog-card {
+    width: calc(45% - 20px);
+    margin-top: 20px;
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    overflow: hidden;
+ 
+}
+
+.blog-card:hover img {
+    transform: scale(1.05);
+}
+
+.blog-card:hover .blog-content p{
+	display: block;
+	top: 0;
+}
+
+.blog-card img {
+    height: 300px;
+    width: 9000px;
+	transition: transform 0.3s ease-in-out;
+    /* object-fit: cover; */
+}
+
+.blog-content {
+    padding: 2px;
+}
+
+.blog-content h3 {
+	color: #0a0909;
+	font-size: 1.1em;
+	margin-top: -.2cm;
+    
+  
+}
+
+.blog-content p{
+	display: none;
+	color: #131313;
+	font-size: .8em;
+	transition: top 3s ease-in-out;
+}
+
+
+.blog-card:hover #readhover{
+
+    color: rgb(19, 181, 19);
+	border-bottom: 2px solid black;
+    /* padding-left: 15px; */
+}
+#readhover:hover{
+	padding-left: 15px;
+}
+.blog-posts h1 {
+	font-size: 56px;
+	font-weight: 700;
+	color: #000000;
+	font-family: "Libre Baskerville", serif;
+	
+  }
+
+  .blog-posts span{
+	font-family: 'Lexend Deca', sans-serif;  
+    border-bottom: 3px solid green;
+    border-radius: 4px;
+    padding-bottom: .1cm;
+  }
+
+
+
+/* about styles  */
+
+.aboutwrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2cm;
+}
+
+.aboutwrapper h2 {
+	text-align: center;
+}
+
+.aboutwrapper h1 {
+	text-align: center;
+}
+
+.aboutwrapper p{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+
+
+
+/* contact styles */
+
+.contactUsPage{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.contactUsPage h1 {
+	font-size: 56px;
+	font-weight: 700;
+	color: #000000;
+	font-family: "Libre Baskerville", serif;
+	 }
+
+#temp{
+	font-family: 'Lexend Deca', sans-serif;  
+    border-bottom: 3px solid green;
+    border-radius: 4px;
+    padding-bottom: 2px;
+  }
+
+ 
+
+  .firstrow input{
+	width: 332.5px;
+	height: 44px;
+	padding: 5px 14px;
+  }
+
+  .secondrow input{
+	width: 700px;
+	height: 44px;
+	padding: 5px 14px;
+  }
+
+  .thirdrow textarea {
+	width: 725px;
+	height: 158px;
+  }
+
+  input[type="submit"]{
+	width: 730px;
+	height: 48px;
+	background-color: #292828;
+	color: azure;
+  }
+
+  input[type="submit"]:hover{
+	background-color: #000;
+  }
+  .contactUsPage::placeholder{
+	font-family: 'Times New Roman', Times, serif;
+  }
